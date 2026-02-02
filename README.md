@@ -1,13 +1,13 @@
-# ⛽ Vent-Flow Event Severity Classification (AER Wells)
+# Vent-Flow Event Severity Classification (AER Wells)
 
-## 🔍 Problem
+## Problem
 Surface Casing Vent Flow (SCVF) and gas migration events in oil & gas wells can cause methane emissions, groundwater contamination, and serious safety hazards.  
 Early identification of **high-risk wells** is critical for preventing environmental damage.
 
-## 🎯 Goal
+## Goal
 Build machine learning models to classify well events as **Serious** or **Non-Serious**, enabling proactive monitoring and risk-based inspections.
 
-## 📊 Dataset
+## Dataset
 Alberta Energy Regulator – Vent Flow & Gas Migration Report  
 - 39,321 wells  
 - Public regulatory dataset  
@@ -20,7 +20,7 @@ Alberta Energy Regulator – Vent Flow & Gas Migration Report
 - Shut-in pressure  
 - Source depth  
 
-## ⚙️ Methods
+## Methods
 - Data cleaning & preprocessing
 - Feature engineering
 - Logistic Regression
@@ -29,14 +29,14 @@ Alberta Energy Regulator – Vent Flow & Gas Migration Report
 - Decision Trees
 - Cross-validation & confusion matrix evaluation
 
-## 📈 Results
+## Results
 - Compared multiple classifiers to identify the best-performing model
 - Identified key predictors of severe vent-flow events
 - Generated decision rules to flag high-risk wells
 
 👉 Enables data-driven inspection prioritization and improved environmental safety.
 
-## 🛠 Tech Stack
+## Tech Stack
 Python / R • Pandas / tidyverse • scikit-learn • Statistical modeling • Visualization
 
 ## ▶️ How to Run
